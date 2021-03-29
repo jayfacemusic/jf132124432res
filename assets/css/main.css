@@ -118,13 +118,13 @@ input, select, textarea {
 
 	p {
     margin: 0 0 2em 0;
-    color: rgba(255,255,255,0.75);
+    color: #FDFDFD;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #F9F9F9;
-		line-height: 1em;
-		margin: 0 0 1em 0;
+    color: #FDFDFD;
+    line-height: 1em;
+    margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -143,8 +143,9 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.35em;
-		line-height: 1.5em;
+    font-size: 1.35em;
+    line-height: 1.5em;
+    color: #FDFDFD;
 	}
 
 	h4 {
@@ -279,11 +280,11 @@ input, select, textarea {
 /* Row */
 
 .video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 100px;
+    height: 0;
+    overflow: hidden;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
