@@ -2922,10 +2922,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-    padding-top: 9em;
+    padding-top: 2em;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 9em;
+    padding-bottom: 12em;
     background-color: #000000;
     color: rgba(255, 255, 255, 0.75);
     background-attachment: scroll;
@@ -3104,7 +3104,7 @@ input, select, textarea {
     padding-top: 4em;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
     background-color: #000000;
     color: rgba(255, 255, 255, 0.75);
     background-attachment: fixed,							fixed,							fixed;
@@ -3231,7 +3231,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-    padding-top: 5em;
+    padding-top: 2em;
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 12em;
@@ -3278,7 +3278,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-    padding-top: 4em;
+    padding-top: 2em;
     padding-right: 0;
     padding-left: 0px;
     padding-bottom: 12em;
@@ -3317,16 +3317,16 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-    padding-top: 5em;
+    padding-top: 2em;
     padding-right: 8em;
     padding-left: 8em;
-    padding-bottom: 3em;
+    padding-bottom: 12em;
 			}
 
 		/* Header */
 
 			#header {
-    padding-top: 4em;
+    padding-top: 2em;
     padding-right: 0.3em;
     padding-left: 0.3em;
     padding-bottom: 12em;
@@ -3335,7 +3335,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 5em 0.3em 5em 0.3em ;
+				padding: 5em 0.3em 3em 0.3em ;
 			}
 
 		/* One */
@@ -3414,19 +3414,19 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-    padding-top: 3em;
+    padding-top: 2em;
     padding-right: 5.5em;
     padding-left: 5.5em;
-    padding-bottom: 1em;
+    padding-bottom: 12em;
 			}
 
 		/* Header */
 
 			#header {
-    padding-top: 5em;
+    padding-top: 2em;
     padding-right: 0.3em;
     padding-left: 0.3em;
-    padding-bottom: 8em;
+    padding-bottom: 12em;
 			}
 
 				#header .actions {
@@ -3463,10 +3463,10 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-    padding-top: 3em;
+    padding-top: 2em;
     padding-right: 0.3em;
     padding-left: 0.3em;
-    padding-bottom: 13em;
+    padding-bottom: 12em;
 			}
 
 				#header br {
@@ -3527,4 +3527,36 @@ input, select, textarea {
 	}.video-container {
 }
 .brands {
+}
+
+/* Scroll-top */
+
+#scroll-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #585858;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.9s ease;
+  font-size: 24px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  opacity: 0.6;
+}
+
+#scroll-top:hover {
+  background-color: #0b6fae;
+  opacity: 1.0;
+}
+
+#scroll-top i {
+  font-size: 24px;
+  line-height: 1;
 }
