@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var scrollTopButton = document.getElementById('scroll-top');
 
   window.addEventListener('scroll', function() {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 1000) {
       scrollTopButton.style.display = 'block';
     } else {
       scrollTopButton.style.display = 'none';
