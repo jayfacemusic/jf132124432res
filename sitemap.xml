@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
-            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>https://jayface.com/</loc>
-  <lastmod>2025-03-23T00:00:00+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
-</url>
-
+  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
+  xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <url>
+    <loc>https://jayface.com/</loc>
+    <lastmod>2025-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+    <image:image>
+      <image:loc>https://jayface.com/images/jayface-portrait-artist.jpg</image:loc>
+      <image:caption>Official profile photo of Jayface with his logo</image:caption>
+      <image:title>Jayface Artist Official Portrait</image:title>
+    </image:image>
+  </url>
 
 </urlset>
