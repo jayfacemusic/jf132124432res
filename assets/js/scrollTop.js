@@ -1,4 +1,4 @@
-// scrollTop.js  /  Author: Jayface / Website: jayface.com / Version: 1.05.
+// scrollTop.js  /  Author: Jayface / Website: jayface.com / Version: 1.05. //
 document.addEventListener('DOMContentLoaded', function() {
   var scrollTopButton = document.getElementById('scroll-top');
 
