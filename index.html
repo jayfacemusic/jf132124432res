@@ -26,6 +26,7 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/hbr.css" />
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css?v=1" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		
@@ -300,6 +301,24 @@
 	</head>
 	<body>
 
+		<nav id="my-navbar">
+			<div class="logo">Jayface</div>
+    <input type="checkbox" id="my-menu-toggle" class="hamburger-toggle" />
+    <label class="my-hamburger" for="my-menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul class="my-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#albums">Albums</a></li>
+      <li><a href="#about-discography">About & Discography</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://shop.jayface.com" target="_blank" rel="noopener">Merch</a></li>
+    </ul>
+  </nav>
+
+		
 			<section id="header">
 				<div class="inner">
 					<ul class="icons">
@@ -320,7 +339,7 @@
 					  <h2><strong>Reflection - New Single</strong></h2>
 					</header>
 					<iframe src="https://embed.beatport.com/?id=20466798&type=track" width="100%" height="200" frameborder="0" scrolling="no" style="max-width:800px;"></iframe>
-					<h2><strong>Albums</strong></h2>
+					<h2 id="albums"><strong>Albums</strong></h2>
 					<br><br>
 				  <div class="row gtr-150">
 						<div class="col-4 col-12-medium">
@@ -367,7 +386,7 @@
 						<div class="col-6 col-12-medium"> </div>
 						<div class="col-12 col-12-medium">
 							<header class="major align-center">
-							  <h2><strong>About & Discography</strong></h2>
+							  <h2 id="about-discography"><strong>About & Discography</strong></h2>
 							</header>
 							<h3 style="text-align: justify">
                               <img src="images/jayface-official-portrait-artist.jpg" alt="Jayface, musician, music producer and DJ – official portrait with his logo."
@@ -391,7 +410,7 @@
 		    <section id="three" class="main style2 special">
 				<div class="container">
 					<header class="major">
-					  <h2><strong>Contact</strong></h2>
+					  <h2 id="contact"><strong>Contact</strong></h2>
 					</header>
 					<h3>You can send a message here</h3>
 					<ul class="actions special">
@@ -439,6 +458,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 		    <script src="assets/js/scrollTop.js"></script>
+		    <script src="assets/js/menucls.js"></script>
 
 	</body>
 </html>
