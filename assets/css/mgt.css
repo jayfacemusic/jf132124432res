@@ -1,0 +1,74 @@
+/* Mgt codes / Author: Jayface / website: https://jayface.com/ Version: 1.05 / 2025-06-15 */
+
+.music-gallery {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 10px;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+}
+
+.music-gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.music-gallery__item {
+  text-align: center;
+}
+
+.music-gallery__cover {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.music-gallery__cover:hover {
+  transform: scale(1.05);
+}
+
+.music-gallery__links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.music-gallery__icon {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 800px) {
+  .music-gallery__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .music-gallery__cover {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+  }
+
+  .music-gallery__item {
+    width: 100%;
+    max-width: 160px;
+  }
+	
+  .music-gallery__links {
+    gap: 30px; /* Mob Ic Sp */
+  }
+}
+
+section.music-gallery > h2.major {
+  margin-top: 0 !important;
+}
+
