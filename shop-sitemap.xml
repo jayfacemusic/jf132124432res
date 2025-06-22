@@ -1,1 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Shop main page -->
+  <url>
+    <loc>https://shop.jayface.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Product pages -->
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-t-shirt</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-t-shirt-light-mode</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-20-edition-t-shirt</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-hoodie</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-hoodie-light-mode</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-supersoft-t-shirt</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-supersoft-t-shirt-light-mode</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-long-sleeve-tee</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-long-sleeve-tee-light-mode</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-sweatshirt</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-muscle-tank-light-mode</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-all-t-shirt</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-crop-top-for-women</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-crop-top-for-women-light-mode</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-ceramic-mug</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-ceramic-mug-light-mode</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://shop.jayface.com/products/jayface-can-shaped-glass</loc>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
 
