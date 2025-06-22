@@ -2,6 +2,7 @@
 <urlset
   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
   xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
         https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
@@ -16,6 +17,11 @@
   <url>
     <loc>https://shop.jayface.com/products/jayface-t-shirt</loc>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://imgproxy.fourthwall.com/nVW8H6K0068sjuO0qQ7vaVcqZI1a2nqAtIZV1Pq30Ys/w:900/sm:1/enc/lnf8wih-iwBPyw0I/KLjXEfhdVl_jUtos/Oql9tFnSbFFHPmX3/j2wFhtTA3hvk3-7I/jMevqZWrtQ6GkCgt/iKMMY84s_LqaB9aK/-VmVJAKm84rAUgp4/PfId8ywB0YQtTOt7/ul57NLDpEMvBCzCZ/jWC7KKh3O2Jsl5_e/Te4Mjz1QqF_VzmPj/6SwuQ3FC3KzEDXDp/W2YykB7v8zuH25xv/mhHF5OmgaDYXtI5r/GZelGZzMK-A</image:loc>
+      <image:caption>Jayface T-Shirt official product image</image:caption>
+      <image:title>Jayface T-Shirt</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://shop.jayface.com/products/jayface-t-shirt-light-mode</loc>
