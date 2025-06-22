@@ -36,11 +36,16 @@
     <loc>https://shop.jayface.com/products/jayface-20-edition-t-shirt</loc>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>https://imgproxy.fourthwall.com/9OXmWwiQcestmktLgJng4EHO1oHr9Cp2DrMV_dcEk9o/w:900/sm:1/enc/SPi7GWsYNyTklF_f/r2jU5EEjPJnIyVJi/adPNhurANXt0yCVn/Z90wglhIUsj4qnQk/dAWhrNDqPXZfhsQY/bFeFQPBzrEOqOoxu/F-y1Ibnj9r86Sx1n/gCdVu_JKhPPBAPSG/QdN0WrwoB45255n3/_7IyEUaXt6uy-I2m/9FT68RT6oSAzl4qD/QvnccWrC3-vuLQms/hfYWFMq-Inx36Qkn/vW58bpDJtJwXt5W-/OY689-lbE3E</image:loc>
-      <image:loc>https://imgproxy.fourthwall.com/ZBHSoWdOEl3IpfsMJonn4rdKXVIIaZR6snCqGQ-4ILw/w:900/sm:1/enc/45TXkpTnOZ3egaD6/coZHPUPLPCQcP9MM/BQxox7FiX30hb_83/jfon3rlkFV7VuBDp/MfeZy-OEPhBNLBC2/fvY0Ll8oCfMxPRwh/48ODRq8DuW--AlE1/92IfOwI_sRgkejcb/Stt5PFPI8xlejtDv/qd77q7SFoU5B1szH/TlpWQAdCCoGycvyU/bksnQCIuqLVKDZNP/NMz9vXf-1GmGscQv/-r0pwqnYjLG31DQU/zWIZDVWX4wA</image:loc>
-      <image:caption>Jayface 20 Edition T-Shirt official product image</image:caption>
-      <image:title>Jayface 20 Edition T-Shirt</image:title>
-    </image:image>
+    <image:loc>https://imgproxy.fourthwall.com/9OXmWwiQcestmktLgJng4EHO1oHr9Cp2DrMV_dcEk9o/w:900/sm:1/enc/SPi7GWsYNyTklF_f/r2jU5EEjPJnIyVJi/adPNhurANXt0yCVn/Z90wglhIUsj4qnQk/dAWhrNDqPXZfhsQY/bFeFQPBzrEOqOoxu/F-y1Ibnj9r86Sx1n/gCdVu_JKhPPBAPSG/QdN0WrwoB45255n3/_7IyEUaXt6uy-I2m/9FT68RT6oSAzl4qD/QvnccWrC3-vuLQms/hfYWFMq-Inx36Qkn/vW58bpDJtJwXt5W-/OY689-lbE3E</image:loc>
+    <image:caption>Jayface 20 Edition T-Shirt official product image</image:caption>
+    <image:title>Jayface 20 Edition T-Shirt</image:title>
+  </image:image>
+    
+  <image:image>
+    <image:loc>https://imgproxy.fourthwall.com/ZBHSoWdOEl3IpfsMJonn4rdKXVIIaZR6snCqGQ-4ILw/w:900/sm:1/enc/45TXkpTnOZ3egaD6/coZHPUPLPCQcP9MM/BQxox7FiX30hb_83/jfon3rlkFV7VuBDp/MfeZy-OEPhBNLBC2/fvY0Ll8oCfMxPRwh/48ODRq8DuW--AlE1/92IfOwI_sRgkejcb/Stt5PFPI8xlejtDv/qd77q7SFoU5B1szH/TlpWQAdCCoGycvyU/bksnQCIuqLVKDZNP/NMz9vXf-1GmGscQv/-r0pwqnYjLG31DQU/zWIZDVWX4wA</image:loc>
+    <image:caption>Jayface 20 Edition T-Shirt official product image</image:caption>
+    <image:title>Jayface 20 Edition T-Shirt</image:title>
+  </image:image>
   </url>
   <url>
     <loc>https://shop.jayface.com/products/jayface-hoodie</loc>
