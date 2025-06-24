@@ -2833,7 +2833,7 @@ input, select, textarea {
 		.main.style2 {
     background-color: #000000;
     color: rgba(255, 255, 255, 0.75);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: url("../../images/header.jpg");
     background-size: cover;
 		}
@@ -2929,9 +2929,9 @@ input, select, textarea {
     background-color: #000000;
     color: rgba(255, 255, 255, 0.75);
     background-attachment: scroll;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 230% auto;
+    background-position: center top,center center;
+	background-repeat: no-repeat;
+    background-size: 105ex auto,cover;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -3108,7 +3108,7 @@ input, select, textarea {
     padding-bottom: 2em;
     background-color: #000000;
     color: rgba(255, 255, 255, 0.75);
-    background-attachment: scroll,							scroll,							scroll;
+    background-attachment: fixed,							fixed,							fixed;
     background-position: top left,						center center,					center center;
     background-size: auto,							cover,							cover;
     text-align: center;
