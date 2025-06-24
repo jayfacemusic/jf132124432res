@@ -2935,7 +2935,7 @@ input, select, textarea {
     overflow: hidden;
     position: relative;
     text-align: center;
-    background-image: url(../../images/header_2.jpg);
+    background-image: url("https://jayface.com/images/header_2.jpg");
 	}
 
 		#header a {
