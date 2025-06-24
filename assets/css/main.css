@@ -1,3 +1,6 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+
 /*
   Author: Jayface / Website: jayface.com / Version: 1.05.
 */
@@ -90,10 +93,10 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out;
-		-webkit-transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out;
-		-ms-transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out;
-		transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px #686868;
 		color: inherit;
 		text-decoration: none;
@@ -2932,7 +2935,7 @@ input, select, textarea {
     overflow: hidden;
     position: relative;
     text-align: center;
-    background-image: url("https://jayface.com/images/header_2.jpg");
+    background-image: url(../../images/header_2.jpg);
 	}
 
 		#header a {
@@ -3048,9 +3051,53 @@ input, select, textarea {
 			}
 
 		#header .inner {
+			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
+			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
+			-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
+			transition: transform 1.5s ease, opacity 2s ease;
+			-moz-transition-delay: 0.25s;
+			-webkit-transition-delay: 0.25s;
+			-ms-transition-delay: 0.25s;
+			transition-delay: 0.25s;
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			opacity: 1;
 			position: relative;
 			z-index: 1;
 		}
+
+			#header .inner .actions {
+				-moz-transition: -moz-transform 1.25s ease;
+				-webkit-transition: -webkit-transform 1.25s ease;
+				-ms-transition: -ms-transform 1.25s ease;
+				transition: transform 1.25s ease;
+				-moz-transition-delay: 1s;
+				-webkit-transition-delay: 1s;
+				-ms-transition-delay: 1s;
+				transition-delay: 1s;
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+			}
+
+		#header:after {
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
+			background-image: #000000;
+			content: '';
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+	}
 
 /* Footer */
 
