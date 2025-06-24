@@ -2931,7 +2931,7 @@ input, select, textarea {
     background-attachment: scroll;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: 1080px auto;
+    background-size: 230% auto;
     overflow: hidden;
     position: relative;
     text-align: center;
