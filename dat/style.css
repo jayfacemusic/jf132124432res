@@ -1,4 +1,4 @@
-/* Created by Jayface */
+/* Author: Jayface / Website: jayface.com / Version: 1.05. / © All rights reserved. */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -520,4 +520,24 @@ footer a:hover {
 /* Extended discography text */
 .extended-discography {
   text-align: justify;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .extended-discography {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Back-link text */
+.back-link {
+  color: white;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #02fc88;
+  text-decoration: underline;
 }
