@@ -417,8 +417,10 @@ footer a:hover {
     padding-right: 0.5rem;
   }
 
-  .about-content::before {
-    background-image: url('../images/header2-mobil.jpg'); /* mobilra optimalizált kép */
+    .about-content::before {
+    background-image: none; /* mobilon nincs háttérkép!*/ 
+    background-color: transparent; /* biztos, ami biztos */
+    background-attachment: scroll; /* optional: mobilon nem működik a fixed */
   }
 }
 
