@@ -1,0 +1,572 @@
+/* Author: Jayface / Website: jayface.com / Version: 1.05. / © All rights reserved. */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 0 1rem;
+    text-align: center;
+    background-color: #000;
+	color: white;
+}
+
+/* Betumeret */
+p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: center;
+	color: #fff;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-image img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.spacer {
+  height: 40px;
+}
+
+.welcome,
+.about,
+.contact,
+.follow,
+.catalogue {
+  text-align: center;
+}
+
+.single {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.player audio {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.single img {
+  border-radius: 10px;
+}
+
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+.album img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+.icons img {
+  width: 32px;
+  margin: 5px;
+}
+
+.about img {
+  float: left;
+  margin: 0 15px 0 0;
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: 24px;
+}
+
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.email-button {
+  background: #444;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  border-radius: 11px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border: none;
+}
+
+.email-button:hover {
+  background-color: #02fc88;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact p,
+.follow p {
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+    padding: 0 1px;
+}
+
+.about p {
+  padding: 0 1px;
+}
+
+.single-description {
+    margin-top: 1.75rem; /* vagy pl. 12px */
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.album p {
+  margin-bottom: 1.9rem;
+}
+
+
+/* Music icons */
+
+.music-icons {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.music-icons img {
+  width: 28px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  transition: filter 0.3s ease;
+  filter: grayscale(1) brightness(0.9); /* szurkites */
+}
+
+.music-icons .youtube-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.music-icons a:hover img {
+  filter: none; /* szinesre valt hoverre */
+}
+
+
+/* Music icons footer */
+
+.music-icons-footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 1rem 0;
+  flex-wrap: wrap; /* kulcs mobilos toreshez */
+}
+
+.music-icons-footer img {
+  width: none;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  transition: filter 0.3s ease;
+  filter: grayscale(1) brightness(0.9);
+}
+
+.music-icons-footer a:hover img {
+  filter: none;
+}
+
+.music-icons-footer a {
+  color: #999;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.music-icons-footer a:hover {
+  color: #02fc88;
+}
+
+
+/* Mobilbarat reszponzivitas */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .albums {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single {
+    flex-direction: column;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  .about p {
+    text-align: justify;
+  }
+}
+
+/* Hamburger Menu (mobilra) */
+
+/* Navbar fixalasa */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(17, 17, 17, 0.8); /* attetszo sotetszurke */
+}
+
+/* Menu alapertelmezetten lathato desktopon */
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+/* Menu elemek stilusa */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #02fc88;
+}
+
+/* Hamburger gomb rejtve desktopon */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+}
+
+.hamburger:hover {
+  color: #02fc88;
+}
+
+/* Mobilnezet: hamburger lathato, menu rejtve */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    padding: 0;
+  }
+
+  /* Menu mutatasa, ha a checkbox be van jelolve */
+  #menu-toggle:checked + .hamburger + .menu {
+    display: flex;
+  }
+
+  .navbar li {
+    padding: 1rem 0;
+  }
+}
+
+/* A checkbox teljesen rejtve, nem foglal helyet */
+#menu-toggle {
+  position: absolute;
+  left: -9999px;
+  /* vagy: 
+  display: none; 
+  de az nem mindig mukodik jol */
+}
+
+/* Mobil: header image kozepre fokuszalva */
+@media (max-width: 768px) {
+  .header-image {
+    height: auto; /* vagy a mobil kep magassaga */
+    position: static;
+    overflow: visible;
+  }
+
+  .header-image img {
+    position: static;
+	object-fit: cover;
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+}
+
+
+/* Mobil stilus csak a footer ikonjainak */
+@media (max-width: 768px) {
+  .music-icons-footer {
+    gap: 35px;
+    padding: 0 10px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Footer p betumeret */
+footer p {
+  font-size: 1.0rem;
+  margin: 0.3rem 0;
+}
+
+footer a {
+  font-size: 1.0rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* About BG csuszokep */
+.about {
+  position: relative;
+  overflow: hidden;
+	min-height: 100vh; /* Teljes kepernyomagassag */
+}
+
+.about-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: transparent;
+  color: white;
+}
+
+.about-content * {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+
+.about-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/header2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+  pointer-events: none;
+}
+
+
+@media (max-width: 768px) {
+  .about-content {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+    .about-content::before {
+    background-image: none; /* mobilon nincs hatterkep!*/ 
+    background-color: transparent; /* biztos, ami biztos */
+    background-attachment: scroll; /* optional: mobilon nem mukodik a fixed */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 0.2rem /* eltünteti a jobb-bal margot mobilon */
+  }
+}
+
+@media (max-width: 768px) { /* Uj, about kep alatt egy kis hely */
+  .about-content picture img,
+  .about img {
+    float: none !important;
+    display: block !important;
+    margin: 0 auto 1.5rem auto !important;
+    width: 80% !important; /* opcionalis: kisebb legyen mobilon */
+    max-width: 350px !important;  /* max atmero */
+    position: static !important;
+    top: 0 !important;
+  }
+}
+
+/* Music gallery */
+.music-gallery {
+  max-width: 1200px; /* egyezik a body max-width-ével */
+  margin: 0 auto;
+  padding: 0 1rem; /* egyezik a body padding-jével */
+  background-color: #000; /* pont ugyanaz */
+  font-family: Arial, sans-serif; /* azonos betutipus */
+  color: white; /* ha kell, hogy szoveg is legyen feher */
+  text-align: center;
+}
+
+.music-gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.music-gallery__item {
+  text-align: center;
+  max-width: 350px; /* egyezik az album kepek max-width-evel */
+  width: 100%;
+}
+
+.music-gallery__cover {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px; /* megegyezik album border-radius-al */
+  box-shadow: none;
+  transition: none;
+  cursor: default;
+}
+
+.music-gallery__links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.music-gallery__icon {
+  width: 28px;
+  height: auto;
+  filter: grayscale(1) brightness(0.9); /* egyezik az alap ikon filterrel */
+  transition: filter 0.3s ease;
+}
+
+.music-gallery__icon:hover {
+  filter: none; /* színes hover */
+}
+
+/* Music gallery Mobilra reszponziv */
+@media (max-width: 768px) {
+  .music-gallery__grid {
+    grid-template-columns: repeat(2, 160px);
+    gap: 50px;
+    justify-content: center; /* kozepre a grid */
+    margin: 0 auto;
+  }
+
+  .music-gallery__item {
+    max-width: 160px;
+  }
+
+  .music-gallery__cover {
+    max-width: 160px;
+    height: auto;
+  }
+
+  .music-gallery__links {
+    gap: 30px;
+  }
+}
+
+/* Music gallery icon hoover */
+
+.music-gallery .music-gallery__links img {
+  filter: grayscale(100%) brightness(0.8);
+  transition: filter 0.3s ease;
+}
+
+.music-gallery .music-gallery__links img:hover {
+  filter: none;
+}
+
+
+/* Extended discography text */
+.extended-discography {
+  text-align: justify;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .extended-discography {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Back-link text */
+.back-link {
+  color: white;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #02fc88;
+  text-decoration: underline;
+}
+
+/* Merch-link text */
+section.merch p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+a.merch-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+}
+
+a.merch-link:hover {
+  color: #02fc88;
+  text-decoration: none;
+}
