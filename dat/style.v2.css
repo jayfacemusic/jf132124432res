@@ -498,7 +498,7 @@ footer a:hover {
 @media (max-width: 768px) {
   .music-gallery__grid {
     grid-template-columns: repeat(2, 160px);
-    gap: 50px;
+    gap: 50px 40px;
     justify-content: center; /* kozepre a grid */
     margin: 0 auto;
   }
