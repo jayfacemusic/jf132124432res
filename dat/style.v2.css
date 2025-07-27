@@ -154,7 +154,6 @@ h2 {
   margin-bottom: 1.9rem;
 }
 
-
 /* Music icons */
 
 .music-icons {
@@ -182,7 +181,6 @@ h2 {
 .music-icons a:hover img {
   filter: none; /* szinesre valt hoverre */
 }
-
 
 /* Music icons footer */
 
@@ -216,7 +214,6 @@ h2 {
 .music-icons-footer a:hover {
   color: #02fc88;
 }
-
 
 /* Mobilbarat reszponzivitas */
 @media (max-width: 768px) {
@@ -342,7 +339,6 @@ h2 {
   }
 }
 
-
 /* Mobil stilus csak a footer ikonjainak */
 @media (max-width: 768px) {
   .music-icons-footer {
@@ -391,7 +387,6 @@ footer a:hover {
   color: white;
 }
 
-
 .about-content::before {
   content: "";
   position: absolute;
@@ -408,34 +403,29 @@ footer a:hover {
   pointer-events: none;
 }
 
-
 @media (max-width: 768px) {
   .about-content {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
 
-    .about-content::before {
-    background-image: none; /* mobilon nincs hatterkep!*/ 
-    background-color: transparent; /* biztos, ami biztos */
-    background-attachment: scroll; /* optional: mobilon nem mukodik a fixed */
+  .about-content::before {
+    background-image: none;
+    background-color: transparent;
+    background-attachment: scroll;
   }
-}
 
-@media (max-width: 768px) {
   body {
-    padding: 0 0.2rem /* eltünteti a jobb-bal margot mobilon */
+    padding: 0 0.2rem;
   }
-}
 
-@media (max-width: 768px) { /* Uj, about kep alatt egy kis hely */
   .about-content picture img,
   .about img {
     float: none !important;
     display: block !important;
     margin: 0 auto 1.5rem auto !important;
-    width: 80% !important; /* opcionalis: kisebb legyen mobilon */
-    max-width: 350px !important;  /* max atmero */
+    width: 80% !important;
+    max-width: 350px !important;
     position: static !important;
     top: 0 !important;
   }
