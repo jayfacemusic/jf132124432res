@@ -299,7 +299,7 @@ h2 {
 }
 
 .navbar a:hover {
-  color: #02fc88;
+  color: #e8241a;
 }
 
 /* Hamburger gomb rejtve desktopon */
@@ -312,7 +312,7 @@ h2 {
 }
 
 .hamburger:hover {
-  color: #02fc88;
+  color: #e8241a;
 }
 
 /* Mobilnezet: hamburger lathato, menu rejtve */
@@ -587,4 +587,5 @@ a.merch-link {
 a.merch-link:hover {
   color: #02fc88;
   text-decoration: none;
+
 }
