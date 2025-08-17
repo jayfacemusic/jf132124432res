@@ -9,17 +9,17 @@
   <!-- Main page -->
   <url>
     <loc>https://jayface.com/</loc>
-    <lastmod>2025-08-15T10:00:00+02:00</lastmod>
+    <lastmod>2025-08-16T10:00:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
     <image:image>
       <image:loc>https://jayface.com/images/jayface-official-x-twitter-card-photo.jpg</image:loc>
-      <image:caption>Official landscape profile photo of Jayface – electronic music producer and DJ</image:caption>
+      <image:caption>Jayface – Electronic music producer and DJ - Official landscape profile photo</image:caption>
       <image:title>Jayface – Electronic music producer and DJ (official landscape profile photo)</image:title>
     </image:image>
     <image:image>
       <image:loc>https://jayface.com/images/jayface-official-artist-profile-photo.jpg</image:loc>
-      <image:caption>Official square profile photo of Jayface – electronic music producer and DJ</image:caption>
+      <image:caption>Jayface – Electronic music producer and DJ - Official square profile photo</image:caption>
       <image:title>Jayface – Electronic music producer and DJ (official square profile photo)</image:title>
     </image:image>
   </url>
@@ -27,7 +27,7 @@
   <!-- Releases page -->
   <url>
     <loc>https://jayface.com/releases.html</loc>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -35,7 +35,7 @@
   <!-- Mixes page -->
   <url>
     <loc>https://jayface.com/mixes.html</loc>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.40</priority>
   </url>
