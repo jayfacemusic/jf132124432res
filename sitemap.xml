@@ -9,7 +9,7 @@
   <!-- Main page -->
   <url>
     <loc>https://jayface.com/</loc>
-    <lastmod>2025-10-21T10:00:00+02:00</lastmod>
+    <lastmod>2025-11-08T10:00:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
     <image:image>
@@ -27,7 +27,7 @@
   <!-- Releases page -->
   <url>
     <loc>https://jayface.com/releases.html</loc>
-    <lastmod>2025-10-21</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -35,15 +35,23 @@
   <!-- Mixes page -->
   <url>
     <loc>https://jayface.com/mixes.html</loc>
-    <lastmod>2025-10-21</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.40</priority>
+  </url>
+
+  <!-- Tracklists page -->
+  <url>
+    <loc>https://jayface.com/tracklists.html</loc>
+    <lastmod>2025-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.10</priority>
   </url>
 
   <!-- Terms of Use and Privacy Policy page -->
   <url>
     <loc>https://jayface.com/termsofuse.html</loc>
-    <lastmod>2025-10-01</lastmod>
+    <lastmod>2025-11-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.10</priority>
   </url>
