@@ -39,6 +39,7 @@ p {
   }
 }
 
+h1,
 h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -589,3 +590,4 @@ a.merch-link:hover {
   text-decoration: none;
 
 }
+
