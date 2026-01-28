@@ -183,7 +183,6 @@ h2 {
 .album p {
   margin-bottom: 1.9rem;
 }
-
 /* Music icons */
 .music-icons {
   display: flex;
@@ -210,7 +209,6 @@ h2 {
 .music-icons a:hover img {
   filter: none;
 }
-
 /* Music icons footer */
 .music-icons-footer {
   display: flex;
@@ -242,8 +240,7 @@ h2 {
 .music-icons-footer a:hover {
   color: #02fc88;
 }
-
-/* Mobilbarat reszponzivitas */
+/* Mobilbarat reszponziv */
 @media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
@@ -273,17 +270,15 @@ h2 {
     text-align: justify;
   }
 }
-
 /* Hamburger Menu (mobilra) */
-/* Navbar fixalasa */
+/* Navbar fixalas */
 .navbar {
   position: sticky;
   top: 0;
   z-index: 1000;
   background: rgba(17, 17, 17, 0.8);
 }
-
-/* Menu alapertelmezetten lathato desktopon */
+/* Menu alapertelmezetten lathato desktop */
 .navbar ul {
   display: flex;
   justify-content: space-around;
@@ -291,7 +286,6 @@ h2 {
   padding: 1rem 0;
   margin: 0;
 }
-
 /* Menu elemek stilusa */
 .navbar a {
   color: white;
@@ -302,8 +296,7 @@ h2 {
 .navbar a:hover {
   color: #e8241a;
 }
-
-/* Hamburger gomb rejtve desktopon */
+/* Hamburger gomb rejtve desktop */
 .hamburger {
   display: none;
   font-size: 1.5rem;
@@ -315,7 +308,6 @@ h2 {
 .hamburger:hover {
   color: #e8241a;
 }
-
 /* Mobilnezet: hamburger lathato, menu rejtve */
 @media (max-width: 768px) {
   .hamburger {
@@ -329,7 +321,6 @@ h2 {
     background: #000;
     padding: 0;
   }
-
 /* Menu mutatasa, ha a checkbox be van jelolve */
   #menu-toggle:checked + .hamburger + .menu {
     display: flex;
@@ -339,17 +330,12 @@ h2 {
     padding: 1rem 0;
   }
 }
-
 /* A checkbox teljesen rejtve, nem foglal helyet */
 #menu-toggle {
   position: absolute;
   left: -9999px;
-  /* vagy: 
-  display: none; 
-  de az nem mindig mukodik jol */
 }
-
-/* Mobil: header image kozepre fokuszalva */
+/* Mobil: header image kozepre fokusz */
 @media (max-width: 768px) {
   .header-image {
     height: auto; /* vagy a mobil kep magassaga */
@@ -365,8 +351,7 @@ h2 {
     transform: none;
   }
 }
-
-/* Mobil stilus csak a footer ikonjainak */
+/* Mobil stilus csak a footer ikonok */
 @media (max-width: 768px) {
   .music-icons-footer {
     gap: 35px;
@@ -374,7 +359,6 @@ h2 {
     flex-wrap: wrap;
   }
 }
-
 /* Footer p betumeret */
 footer {
   background-color: #000;
@@ -394,7 +378,6 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
 /* About BG csuszokep */
 .about {
   position: relative;
@@ -462,7 +445,6 @@ footer a:hover {
     top: 0;
   }
 }
-
 /* Music gallery */
 .music-gallery {
   max-width: 1200px;
@@ -515,8 +497,7 @@ footer a:hover {
 .music-gallery__icon:hover {
   filter: none;
 }
-
-/* Music gallery Mobilra reszponziv */
+/* Music gallery Mobil reszponziv */
 @media (max-width: 768px) {
   .music-gallery__grid {
     grid-template-columns: repeat(2, 160px);
@@ -538,7 +519,6 @@ footer a:hover {
     gap: 30px;
   }
 }
-
 /* Music gallery icon hoover */
 .music-gallery .music-gallery__links img {
   filter: grayscale(100%) brightness(0.8);
@@ -548,7 +528,6 @@ footer a:hover {
 .music-gallery .music-gallery__links img:hover {
   filter: none;
 }
-
 /* Extended discography text */
 .extended-discography {
   text-align: justify;
@@ -562,7 +541,6 @@ footer a:hover {
     padding: 0 0.5rem;
   }
 }
-
 /* Back-link text */
 .back-link {
   color: white;
@@ -573,7 +551,6 @@ footer a:hover {
   color: #e8241a;
   text-decoration: underline;
 }
-
 /* Merch-link text */
 section.merch p {
   font-size: 1.2rem;
@@ -590,4 +567,10 @@ a.merch-link:hover {
   text-decoration: none;
 
 }
-
+/* Mobil pic no click */
+@media (max-width: 768px) {
+  .about-content a {
+    pointer-events: none;
+    cursor: default;
+  }
+}
