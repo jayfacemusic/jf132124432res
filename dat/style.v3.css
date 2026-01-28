@@ -121,7 +121,7 @@ h2 {
   width: 250px;
   height: auto;
   border-radius: 15px;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   position: relative;
   top: 24px;
@@ -451,13 +451,14 @@ footer a:hover {
 
   .about-content picture img,
   .about img {
-    float: none !important;
-    display: block !important;
-    margin: 0 auto 1.5rem auto !important;
-    width: 80% !important;
-    max-width: 350px !important;
-    position: static !important;
-    top: 0 !important;
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+    position: static;
+    top: 0;
   }
 }
 
@@ -583,11 +584,8 @@ a.merch-link {
   color: #fff;
   font-weight: normal;
 }
-
 a.merch-link:hover {
   color: #02fc88;
   text-decoration: none;
 
 }
-
-
