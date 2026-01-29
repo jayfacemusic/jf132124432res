@@ -119,7 +119,7 @@ h2 {
 .about img {
   float: left;
   margin: 0 15px 0 0;
-  width: 300px;
+  width: 285px;
   height: auto;
   border-radius: 15px;
   display: block;
@@ -574,4 +574,5 @@ a.merch-link:hover {
     cursor: default;
   }
 }
+
 
