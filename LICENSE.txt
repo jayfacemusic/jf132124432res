@@ -1,0 +1,5 @@
+© 2005-2026 Jayface / Jayface Music. All rights reserved.
+
+This repository, website, and all associated content — including but not limited to music, audio, visuals, artwork, text, branding, and code — are the exclusive intellectual property of Jayface.
+
+Public availability on GitHub does not grant any rights to copy, reproduce, modify, distribute, publish, or use any part of this project without prior written permission from Jayface.
