@@ -9,7 +9,7 @@
   <!-- Main page -->
   <url>
     <loc>https://jayface.com/</loc>
-    <lastmod>2026-06-01T16:25:00+01:00</lastmod>
+    <lastmod>2026-06-02T12:25:00+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
     <image:image>
@@ -27,7 +27,7 @@
   <!-- Releases page -->
   <url>
     <loc>https://jayface.com/releases</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -35,7 +35,7 @@
   <!-- Mixes page -->
   <url>
     <loc>https://jayface.com/mixes</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.40</priority>
   </url>
@@ -43,7 +43,7 @@
   <!-- Photos page -->
   <url>
     <loc>https://jayface.com/photos</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.40</priority>
   </url>
@@ -51,7 +51,7 @@
   <!-- Tracklists page -->
   <url>
     <loc>https://jayface.com/tracklists</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.10</priority>
   </url>
@@ -59,7 +59,7 @@
   <!-- Promo and Guest Mix submissions page -->
   <url>
     <loc>https://jayface.com/promos</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.10</priority>
   </url>
@@ -67,7 +67,7 @@
   <!-- Terms of Use, Intellectual Property, and Privacy Policy page -->
   <url>
     <loc>https://jayface.com/termsofuse</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.10</priority>
   </url>
