@@ -146,7 +146,7 @@ h2 {
 }
 
 .email-button:hover {
-  background-color: #7e201b;
+  background-color: #00ab5c;
   color: #fff;
   cursor: pointer;
 }
@@ -294,7 +294,7 @@ h2 {
 }
 
 .navbar a:hover {
-  color: #e8241a;
+  color: #00fc87;
 }
 /* Hamburger gomb rejtve desktop */
 .hamburger {
@@ -306,7 +306,7 @@ h2 {
 }
 
 .hamburger:hover {
-  color: #e8241a;
+  color: #00fc87;
 }
 /* Mobilnezet: hamburger lathato, menu rejtve */
 @media (max-width: 768px) {
