@@ -574,5 +574,12 @@ a.merch-link:hover {
     cursor: default;
   }
 }
-
-
+/* Mobil bchrt */
+@media (max-width: 768px) {
+  .charts-wrapper div {
+    justify-content: center !important;
+  }
+  .charts-wrapper p {
+    margin: 0 auto !important;
+  }
+}
