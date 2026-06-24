@@ -409,7 +409,7 @@ footer a:hover {
   border-radius: 10px;
   box-shadow: none;
   transition: none;
-  cursor: default;
+  cursor: pointer;
 }
 .music-gallery__links {
   margin-top: 10px;
