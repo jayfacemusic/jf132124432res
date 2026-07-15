@@ -129,7 +129,7 @@ h2 {
   border: none;
 }
 .email-button:hover {
-  background-color: #00ab5c;
+  background-color: #2c39e5;
   color: #fff;
   cursor: pointer;
 }
@@ -206,7 +206,7 @@ h2 {
   text-decoration: none;
 }
 .music-icons-footer a:hover {
-  color: #02fc88;
+  color: #2c39e5;
 }
 @media (max-width: 768px) {
   .navbar ul {
@@ -251,7 +251,7 @@ h2 {
   font-weight: bold;
 }
 .navbar a:hover {
-  color: #00fc87;
+  color: #0060ff;
 }
 .hamburger {
   display: none;
@@ -261,7 +261,7 @@ h2 {
   padding: 1rem;
 }
 .hamburger:hover {
-  color: #00fc87;
+  color: #0060ff;
 }
 @media (max-width: 768px) {
   .hamburger {
