@@ -467,7 +467,7 @@ footer a:hover {
   text-decoration: none;
 }
 .back-link:hover {
-  color: #e8241a;
+  color: #0060ff;
   text-decoration: underline;
 }
 section.merch p {
@@ -480,7 +480,7 @@ a.merch-link {
   font-weight: normal;
 }
 a.merch-link:hover {
-  color: #02fc88;
+  color: #0060ff;
   text-decoration: none;
 
 }
