@@ -275,19 +275,10 @@ h2 {
     padding: 0;
   }
   #menu-toggle:checked + .hamburger + .menu {
-    display: flex !important;
-    position: fixed !important;
-    top: 50px !important;
-    left: 0 !important;
-    width: 100vw !important;
-    height: calc(100vh - 50px) !important;
-    max-height: calc(100vh - 50px) !important;
-    overflow-y: scroll !important;
-    -webkit-overflow-scrolling: touch !important;
-    overscroll-behavior: none !important;
-    background: #000000 !important;
-    padding-bottom: 80px !important;
-    box-sizing: border-box !important;
+    display: flex;
+    max-height: 70vh;        /* A képernyő 70%-ánál nem lehet nagyobb */
+    overflow-y: auto;        /* Csak a menün belül enged görgetést */
+    padding-bottom: 20px;
   }
   .navbar li {
     padding: 1rem 0;
