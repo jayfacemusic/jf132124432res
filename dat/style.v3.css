@@ -276,6 +276,7 @@ h2 {
   }
   #menu-toggle:checked + .hamburger + .menu {
     display: flex;
+  }
   .navbar li {
     padding: 1rem 0;
   }
