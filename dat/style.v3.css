@@ -279,6 +279,7 @@ h2 {
     max-height: calc(100vh - 60px);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
   }
   .navbar li {
     padding: 1rem 0;
