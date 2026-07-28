@@ -275,23 +275,7 @@ h2 {
     padding: 0;
   }
   #menu-toggle:checked + .hamburger + .menu {
-    display: flex !important;
-    position: fixed !important;
-    top: 55px !important;           /* A hamburger ikon ALÁ helyezi a menüt, így az ikon látható és kattintható marad */
-    left: 0 !important;
-    width: 100vw !important;
-    height: calc(100vh - 55px) !important; /* Pontosan a maradék képernyőt tölti ki lefelé */
-    max-height: calc(100vh - 55px) !important;
-    
-    padding-top: 10px !important;   /* Biztonságos távolság a Home linknek, hogy ne érjen hozzá a fejléchez */
-    padding-bottom: 80px !important;/* Extra hely az alján a legalsó linkek görgethetőségéhez */
-    box-sizing: border-box !important;
-    
-    overflow-y: scroll !important;
-    -webkit-overflow-scrolling: touch !important;
-    overscroll-behavior: none !important;
-    background: #000000 !important;
-  }
+    display: flex;
   .navbar li {
     padding: 1rem 0;
   }
