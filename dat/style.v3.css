@@ -275,10 +275,22 @@ h2 {
     padding: 0;
   }
   #menu-toggle:checked + .hamburger + .menu {
-    display: flex;
-    max-height: 70vh;        /* A képernyő 70%-ánál nem lehet nagyobb */
-    overflow-y: auto;        /* Csak a menün belül enged görgetést */
-    padding-bottom: 20px;
+    display: flex !important;
+    position: fixed !important;
+    top: 0 !important;             /* Teljesen a képernyő tetejére húzzuk a biztonság kedvéért */
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;       /* Fix ablakmagasság, amit a régi Safari is megért */
+    max-height: 100vh !important;
+    
+    padding-top: 60px !important;   /* EZ A KULCS: Ez a felső üres tér garantálja, hogy a Home link lejjebb tolódjon, és az SE 1-en is azonnal láthatóvá váljon */
+    padding-bottom: 80px !important;
+    box-sizing: border-box !important;
+    
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior: none !important;
+    background: #000000 !important;
   }
   .navbar li {
     padding: 1rem 0;
