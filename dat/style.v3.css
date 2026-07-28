@@ -276,6 +276,9 @@ h2 {
   }
   #menu-toggle:checked + .hamburger + .menu {
     display: flex;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .navbar li {
     padding: 1rem 0;
