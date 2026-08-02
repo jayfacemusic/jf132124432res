@@ -24,6 +24,14 @@
     </image:image>
   </url>
 
+  <!-- Photos page -->
+  <url>
+    <loc>https://jayface.com/photos</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
   <!-- Releases page -->
   <url>
     <loc>https://jayface.com/releases</loc>
@@ -38,14 +46,6 @@
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.40</priority>
-  </url>
-
-  <!-- Photos page -->
-  <url>
-    <loc>https://jayface.com/photos</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.50</priority>
   </url>
 
   <!-- Feed page -->
