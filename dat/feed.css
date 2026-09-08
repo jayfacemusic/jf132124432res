@@ -50,3 +50,18 @@
     margin-top: 15px;
     word-spacing: 5px;
 }
+.tumblr-post h1 {
+  font-size: 25px;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.tumblr-post h2 {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.tumblr-post h3 {
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 1rem;
+}
