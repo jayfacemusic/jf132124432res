@@ -508,3 +508,32 @@ a.merch-link:hover {
     display: none !important; 
   }
 }
+/* Kfgf */
+.header-image {
+  position: relative;
+  overflow: hidden;
+}
+/* Szcg */
+.blog-label {
+  position: absolute;
+  top: 50%;
+  right: -23px;
+  transform: translateY(-50%);
+  background: #000000;
+  color: #dcdcdc;
+  border: 2px solid #174cf0;
+  border-radius: 8px 0 0 8px;
+  padding: 11px 8px;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  transition: .6s;
+  z-index: 10;
+}
+/* H (ef) á */
+.blog-label:hover {
+  right: 0;
+  background: #174cf0;
+  color: #fff;
+}
