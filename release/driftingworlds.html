@@ -17,146 +17,307 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
   <link href="/dat/style.v3.css" rel="stylesheet" type="text/css" />
 
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MusicAlbum",
-  "name": "Drifting Worlds Album",
-  "byArtist": {
-    "@type": "Person",
-	"@id": "https://jayface.com/#jayface",
-    "name": "Jayface",
-    "url": "https://jayface.com/"
-  },
-  "url": "https://jayface.com/release/driftingworlds",
-  "image": "https://jayface.com/images/releases/jayface-drifting-worlds-album-cover-jyfcmiscalb003.jpg",
-  "description": "Jayface's third EDM album has arrived with the title Drifting Worlds.",
-  "albumReleaseType": "https://schema.org/AlbumRelease",
-  "identifier": [
+  "@graph": [
+
     {
-      "@type": "PropertyValue",
-      "name": "UPC",
-      "value": "663918095591"
+      "@type": "Person",
+      "@id": "https://jayface.com/#jayface",
+      "name": "Jayface",
+      "url": "https://jayface.com/",
+      "image": "https://jayface.com/images/jayface-official-artist-profile-photo.jpg"
     },
+
     {
-      "@type": "PropertyValue",
-      "name": "CatalogNumber",
-      "value": "JYFCMSCALB003"
-    }
-  ],
-  "datePublished": "2025-04-07",
-  "genre": "Trance, Dance",
-  "publisher": {
-  "@type": "Organization",
-  "name": "Jayface Music"
-  },
-  "numTracks": 10,
-  "track": {
-    "@type": "ItemList",
-    "numberOfItems": 10,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "The Tree Of Life: Beginnings (Original Mix)",
-          "isrcCode": "CA5KR2418904",
-          "duration": "PT6M58S"
-        }
+      "@type": "MusicAlbum",
+      "@id": "https://jayface.com/release/driftingworlds#album",
+      "name": "Drifting Worlds Album",
+      "url": "https://jayface.com/release/driftingworlds",
+      "image": "https://jayface.com/images/releases/jayface-drifting-worlds-album-cover-jyfcmiscalb003.jpg",
+      "description": "Jayface's third EDM album has arrived with the title Drifting Worlds.",
+      "byArtist": {
+        "@id": "https://jayface.com/#jayface"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "The Green Valley (Original Mix)",
-          "isrcCode": "CA5KR2437660",
-          "duration": "PT5M39S"
+      "albumReleaseType": "https://schema.org/AlbumRelease",
+      "genre": "Trance",
+      "datePublished": "2025-04-07",
+      "numTracks": 10,
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "UPC",
+          "value": "663918095591"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "CatalogNumber",
+          "value": "JYFCMSCALB003"
         }
+      ],
+      "albumRelease": {
+        "@id": "https://jayface.com/release/driftingworlds#release"
       },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "Back To The Desert (Original Mix)",
-          "isrcCode": "CA5KR2457308",
-          "duration": "PT6M13S"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "Drift (Original Mix)",
-          "isrcCode": "CA5KR2467660",
-          "duration": "PT4M36S"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "Pure Love Remix",
-          "isrcCode": "QZG2X2401189",
-          "duration": "PT3M10S"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "Ashes In The Wind Remix",
-          "isrcCode": "QZG2X2404751",
-          "duration": "PT2M06S"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "Worlds (Original Mix)",
-          "isrcCode": "QZG2X2406861",
-          "duration": "PT3M03S"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "Cotton Candy Clouds Remix",
-          "isrcCode": "QZG2X2408394",
-          "duration": "PT4M39S"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "There Is No Winter Without Snow (Original Mix)",
-          "isrcCode": "QZG2X2408564",
-          "duration": "PT4M07S"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 10,
-        "item": {
-          "@type": "MusicRecording",
-          "name": "Last Minute (Extended Mix)",
-          "isrcCode": "GBKQU2080730",
-          "duration": "PT6M23S"
-        }
+      "track": {
+        "@type": "ItemList",
+        "numberOfItems": 10,
+        "itemListElement": [
+
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "The Tree Of Life: Beginnings (Original Mix)",
+              "isrcCode": "CA5KR2418904",
+              "duration": "PT6M58S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "The Green Valley (Original Mix)",
+              "isrcCode": "CA5KR2437660",
+              "duration": "PT5M39S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "Back To The Desert (Original Mix)",
+              "isrcCode": "CA5KR2457308",
+              "duration": "PT6M13S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "Drift (Original Mix)",
+              "isrcCode": "CA5KR2467660",
+              "duration": "PT4M36S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "Pure Love Remix",
+              "isrcCode": "QZG2X2401189",
+              "duration": "PT3M10S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "Ashes In The Wind Remix",
+              "isrcCode": "QZG2X2404751",
+              "duration": "PT2M06S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "Worlds (Original Mix)",
+              "isrcCode": "QZG2X2406861",
+              "duration": "PT3M03S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "Cotton Candy Clouds Remix",
+              "isrcCode": "QZG2X2408394",
+              "duration": "PT4M39S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "There Is No Winter Without Snow (Original Mix)",
+              "isrcCode": "QZG2X2408564",
+              "duration": "PT4M07S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+              "@type": "MusicRecording",
+              "name": "Last Minute (Extended Mix)",
+              "isrcCode": "GBKQU2080730",
+              "duration": "PT6M23S",
+              "byArtist": {
+                "@id": "https://jayface.com/#jayface"
+              },
+              "inAlbum": {
+                "@id": "https://jayface.com/release/driftingworlds#album"
+              }
+            }
+          }
+
+        ]
       }
-    ]
-  }
+    },
+
+    {
+      "@type": "MusicRelease",
+      "@id": "https://jayface.com/release/driftingworlds#release",
+      "name": "Drifting Worlds Album",
+      "url": "https://jayface.com/release/driftingworlds",
+      "catalogNumber": "JYFCMSCALB003",
+      "releaseOf": {
+        "@id": "https://jayface.com/release/driftingworlds#album"
+      },
+      "musicReleaseFormat": "https://schema.org/DigitalFormat",
+      "recordLabel": {
+        "@type": "Organization",
+        "name": "Jayface Music"
+      },
+      "releasedEvent": {
+        "@type": "PublicationEvent",
+        "startDate": "2025-04-07"
+      }
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://jayface.com/release/driftingworlds",
+      "url": "https://jayface.com/release/driftingworlds",
+      "name": "Drifting Worlds Album | Jayface",
+      "description": "Drifting Worlds Album by Jayface, released on April 7, 2025.",
+      "mainEntity": {
+        "@id": "https://jayface.com/release/driftingworlds#album"
+      },
+      "about": {
+        "@id": "https://jayface.com/release/driftingworlds#album"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://jayface.com/images/releases/jayface-drifting-worlds-album-cover-jyfcmiscalb003.jpg"
+      },
+      "isPartOf": {
+        "@id": "https://jayface.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://jayface.com/release/driftingworlds#breadcrumb"
+      }
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://jayface.com/release/driftingworlds#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://jayface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Releases",
+          "item": "https://jayface.com/releases"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Drifting Worlds Album",
+          "item": "https://jayface.com/release/driftingworlds"
+        }
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://jayface.com/#website",
+      "name": "Jayface",
+      "url": "https://jayface.com/",
+      "publisher": {
+        "@id": "https://jayface.com/#jayface"
+      }
+    }
+
+  ]
 }
 </script>
 </head>
