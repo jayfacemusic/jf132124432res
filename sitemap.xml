@@ -27,7 +27,7 @@
   <!-- Photos page -->
   <url>
     <loc>https://jayface.com/photos</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -35,7 +35,7 @@
   <!-- Releases page -->
   <url>
     <loc>https://jayface.com/releases</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
@@ -43,7 +43,7 @@
   <!-- Mixes page -->
   <url>
     <loc>https://jayface.com/mixes</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.40</priority>
   </url>
@@ -51,7 +51,7 @@
   <!-- Feed page -->
   <url>
     <loc>https://jayface.com/feed</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.30</priority>
   </url>
@@ -59,7 +59,7 @@
   <!-- Essays page -->
   <url>
     <loc>https://jayface.com/essays</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.30</priority>
   </url>
