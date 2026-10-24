@@ -490,6 +490,10 @@ a.merch-link:hover {
     pointer-events: none;
     cursor: default;
   }
+  .about-content p a {
+    pointer-events: auto;
+    cursor: pointer;
+  }
 }
 @media screen and (max-width: 768px) {
   table.bchart, table.bchart tbody, table.bchart tr {
